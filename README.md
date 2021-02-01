@@ -2,13 +2,13 @@
 [![Issues](https://img.shields.io/github/issues/prestonrl/note-taker)](https://github.com/prestonrl/note-taker/issues) [![Issues](https://img.shields.io/github/contributors/prestonrl/note-taker)](https://github.com/prestonrl/note-taker/graphs/contributors) 
 
 ## Description
+
+
 A Express.js application used for creating, saving, and editing notes stored on a server. Front end code was provided.
 
-<br />
-To view the deployed application [Note Taker](https://note-taker-pl.herokuapp.com)
-<br />
-![image](https://user-images.githubusercontent.com/70044796/106402685-e5dd1a80-63e7-11eb-9fad-3d8153881e18.png)
 
+To view the deployed application click: [Note Taker](https://note-taker-pl.herokuapp.com)
+![image](https://user-images.githubusercontent.com/70044796/106402685-e5dd1a80-63e7-11eb-9fad-3d8153881e18.png)
 ## Contents
 * [Usage](#Usage)
 * [Built With](#Built-With)
