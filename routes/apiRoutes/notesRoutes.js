@@ -12,7 +12,6 @@ router.get("/notes", (req, res) => {
 });
 
 router.post("/notes", (req, res) => {
-  // creates new note if id exists, otherwise edits existing note
   if (!req.body.id) {
     req.body.id = 0;
     createNewNote(req.body, notes);
