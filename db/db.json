@@ -1,14 +1,14 @@
 {
   "notes": [
     {
-      "title": "Test",
-      "text": "test",
-      "id": 0
+      "title": "Test 3",
+      "text": "Test",
+      "id": "ea8462cf-7776-442f-8d70-967c25da756f"
     },
     {
-      "title": "Test again",
-      "text": "Test again",
-      "id": 3
+      "title": "Test 4",
+      "text": "Test",
+      "id": "533206cb-89c8-414e-9dce-6191360d3766"
     }
   ]
 }

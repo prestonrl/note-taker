@@ -65,15 +65,26 @@ const renderActiveNote = () => {
 };
 
 const handleNoteSave = () => {
-  const newNote = {
-    title: noteTitle.value,
-    text: noteText.value,
-  };
+  let note;
+  let noteId = noteTitle.getAttribute("data-id");
+
+  if (noteId) {
+    note = {
+      title: noteTitle.value,
+      text: noteText.value,
+      id: noteId,
+    };
+  } else {
+    note = {
+      title: noteTitle.value,
+      text: noteText.value,
+    };
+  }
   saveNote(newNote).then(() => {
     getAndRenderNotes();
     renderActiveNote();
   });
-};
+};;
 
 // Delete the clicked note
 const handleNoteDelete = (e) => {
